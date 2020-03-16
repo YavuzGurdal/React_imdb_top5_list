@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/React_imdb_top5_list/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/React_imdb_top5_list/static/js/main.704ec5f4.chunk.js",
+    "main.js.map": "/React_imdb_top5_list/static/js/main.704ec5f4.chunk.js.map",
+    "runtime-main.js": "/React_imdb_top5_list/static/js/runtime-main.b9650071.js",
+    "runtime-main.js.map": "/React_imdb_top5_list/static/js/runtime-main.b9650071.js.map",
+    "static/css/2.47e06e2e.chunk.css": "/React_imdb_top5_list/static/css/2.47e06e2e.chunk.css",
+    "static/js/2.cd72a272.chunk.js": "/React_imdb_top5_list/static/js/2.cd72a272.chunk.js",
+    "static/js/2.cd72a272.chunk.js.map": "/React_imdb_top5_list/static/js/2.cd72a272.chunk.js.map",
+    "index.html": "/React_imdb_top5_list/index.html",
+    "precache-manifest.f6912a339e25fabb3c383d52bfc3314d.js": "/React_imdb_top5_list/precache-manifest.f6912a339e25fabb3c383d52bfc3314d.js",
+    "service-worker.js": "/React_imdb_top5_list/service-worker.js",
+    "static/css/2.47e06e2e.chunk.css.map": "/React_imdb_top5_list/static/css/2.47e06e2e.chunk.css.map",
+    "static/css/main.5ecd60fb.chunk.css.map": "/React_imdb_top5_list/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.cd72a272.chunk.js.LICENSE.txt": "/React_imdb_top5_list/static/js/2.cd72a272.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b9650071.js",
+    "static/css/2.47e06e2e.chunk.css",
+    "static/js/2.cd72a272.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.704ec5f4.chunk.js"
+  ]
+}
