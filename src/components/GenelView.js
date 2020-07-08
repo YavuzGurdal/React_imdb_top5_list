@@ -72,7 +72,7 @@ class GenelView extends Component {
 
     constructor(props) {
         super(props)
-        this.state={
+        this.state = {
             display: false,
             movies: []
         }
@@ -83,9 +83,9 @@ class GenelView extends Component {
         let newDisplay = this.state.display ? true : true
 
         this.setState({
-            display : newDisplay,
+            display: newDisplay,
             // display: ! this.state.display, // mevcut durumun tersini yapacak. yani display true ise false,
-                                           // false ise true yapacak. 
+            // false ise true yapacak. 
             movies: movieCategoryTop5[childdanGelenCategory]
         })
     }
@@ -101,11 +101,11 @@ class GenelView extends Component {
                         // ozelliginden dolayi ilk dongude arrayin ilk elemenini, sonraki donguse arrayin sonraki
                         // elemanini aliyor ve fonksiyon icindeki islemleri arrayin elemanlarina otomatik uyguluyor.
                         categories.map(item =>
-                            <Category key={item.id} 
-                                      image={item.image} 
-                                      category={item.category} 
-                                      description={item.description}
-                                      kategoriAl = {this.kategoriDegistir} 
+                            <Category key={item.id}
+                                image={item.image}
+                                category={item.category}
+                                description={item.description}
+                                kategoriAl={this.kategoriDegistir}
                             />
                         )
                         // burda mesela image={item.image} yazdigimizda, <Cotegory /> Componentindeki props.image
@@ -113,12 +113,20 @@ class GenelView extends Component {
                         // Componentte nereye gidecegini yazmak.Bunlarida props vasitasiyla yapiyoruz.
                     }
                 </CardGroup>
-                
-                <Movie movieList = {this.state.movies} tabloGoster={this.state.display}/>
-                    
+
+                <Movie movieList={this.state.movies} tabloGoster={this.state.display} />
+
             </div>
         );
     }
 }
 
 export default GenelView;
+
+
+  // "homepage": "https://yavuzgurdal.github.io/React_imdb_top5_list/",
+  // "name": "imdb_top5_list",
+  // "version": "0.1.0",
+
+//   "predeploy": "npm run build",
+//     "deploy": "gh-pages -d build",
