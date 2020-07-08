@@ -130,3 +130,5 @@ export default GenelView;
 
 //   "predeploy": "npm run build",
 //     "deploy": "gh-pages -d build",
+
+// yarn global add serve
